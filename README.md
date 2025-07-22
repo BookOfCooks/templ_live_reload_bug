@@ -1,5 +1,7 @@
 Application is served on localhost:8080.
 
+To reproduce, just run `TEMPL_DEV_MODE=true templ generate -v --watch --cmd "go run ."`
+
 To make testing different versions easier, I'm using a Makefile, just run the make command.
 
 ```bash
